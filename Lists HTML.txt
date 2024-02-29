@@ -1,0 +1,45 @@
+Lists HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        a
+        {
+            border:2px solid cyan;
+            border-radius: 50%;
+            padding:5px;
+            color:red;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>List Example</h1>
+    <ul style="list-style-type: lower-alpha;">
+        <h2><u>courses</u></h2>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Bootstrap</li>
+        <li>Reactjs</li>
+    </ul>
+    <ol type="">
+        <h2><u>Refreshment</u></h2>
+        <li>tea</li>
+        <li>coffee</li>
+        <li>black-tea</li>
+    </ol>
+    <dl>
+        <!-- data tag-->
+        <dt>HTML</dt>
+        <!-- Data definition-->
+        <dd>it is creating content of the webssite</dd>
+        <dt>CSS</dt>
+        <dd>it is creating layout of the webssite</dd>
+    </dl>
+</body>
+</html>

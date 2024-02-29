@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        table{
+           width:100%;
+           height:200px;
+           background-color:#093040;
+           color:rgb(169, 167, 5) ; 
+           font-size:17px;
+        }
+        td{
+            text-align: center;
+        }
+        caption{
+            font-weight: bold;
+            font-size:25px;
+        }
+        
+    </style>
+</head>
+<body>
+   <table border="5">
+    <caption>Student Table</caption>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Address</th>
+   </tr>
+   <tr>
+    <td>1001</td>
+    <td>Gayathri</td>
+    <td>Banglore</td>
+   </tr>
+   <tr>
+    <td>1002</td>
+    <td>Ravi</td>
+    <td>chennai</td>
+   </tr>
+   <tr>
+    <td>1003</td>
+    <td>sudha</td>
+    <td>mumbai</td>
+   </tr>
+   </table> 
+</body>
+</html>
